@@ -12,6 +12,11 @@ public class ScoreManager : MonoBehaviour
         instance = this;
     }
 
+    void Start()
+    {
+        UIManager.instance.UpdateScoreText(score);
+    }
+
     public int ReadScore()
     {
         return score;
