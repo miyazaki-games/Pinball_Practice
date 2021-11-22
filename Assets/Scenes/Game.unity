@@ -10133,20 +10133,6 @@ MonoBehaviour:
     amountToComplete: 3
     currentAmount: 0
     lightShow: {fileID: 1064937936}
-  - missionId: 3
-    description: Target Mission
-    active: 1
-    permanentActive: 0
-    missionComplete: 0
-    restartOnNextBall: 1
-    stopOnBallEnd: 0
-    resetOnComplete: 1
-    canTriggerMultiball: 1
-    timeToComplete: 0
-    score: 50000
-    amountToComplete: 4
-    currentAmount: 0
-    lightShow: {fileID: 1958128062}
 --- !u!1001 &1994693545
 PrefabInstance:
   m_ObjectHideFlags: 0
