@@ -57,7 +57,7 @@ public class MissionListEditor : Editor
 
         if (GUILayout.Button("Add New Mission"))
         {
-
+            manager.missionList.Add(new Mission());
         }
 
         for (int i = 0; i < theList.arraySize; i++)
@@ -68,10 +68,49 @@ public class MissionListEditor : Editor
 
             SerializedProperty myListRef = theList.GetArrayElementAtIndex(i);
             SerializedProperty myId = myListRef.FindPropertyRelative("missionId");
+            SerializedProperty myDescription = myListRef.FindPropertyRelative("description");
+
+            SerializedProperty myActive = myListRef.FindPropertyRelative("active");
+            SerializedProperty myComplete = myListRef.FindPropertyRelative("missionComplete");
+
+            SerializedProperty myRestart = myListRef.FindPropertyRelative("restartOnNextBall");
+            SerializedProperty myStopOnEnd = myListRef.FindPropertyRelative("stopOnBallEnd");
+            SerializedProperty myResetOnComplete = myListRef.FindPropertyRelative("resetOnComplete");
+            SerializedProperty myMultiBall = myListRef.FindPropertyRelative("canTriggerMultiball");
+
+            SerializedProperty myTimeToComplete = myListRef.FindPropertyRelative("timeToComplete");
+
+            SerializedProperty myScore = myListRef.FindPropertyRelative("score");
+            SerializedProperty myAmountToComplete = myListRef.FindPropertyRelative("amountToComplete");
+            SerializedProperty myCurrentAmount = myListRef.FindPropertyRelative("currentAmount");
+
+            SerializedProperty myCurrentLightShow = myListRef.FindPropertyRelative("lightShow");
 
             if (newShowFoldout[i])
             {
                 EditorGUILayout.PropertyField(myId);
+                EditorGUILayout.PropertyField(myDescription);
+
+                EditorGUILayout.PropertyField(myActive);
+                EditorGUILayout.PropertyField(myComplete);
+
+                EditorGUILayout.PropertyField(myRestart);
+                EditorGUILayout.PropertyField(myStopOnEnd);
+                EditorGUILayout.PropertyField(myResetOnComplete);
+                EditorGUILayout.PropertyField(myMultiBall);
+
+                EditorGUILayout.PropertyField(myTimeToComplete);
+
+                EditorGUILayout.PropertyField(myScore);
+                EditorGUILayout.PropertyField(myAmountToComplete);
+                EditorGUILayout.PropertyField(myCurrentAmount);
+
+                EditorGUILayout.PropertyField(myCurrentLightShow);
+            }
+
+            if (GUILayout.Button("Delete Mission"))
+            {
+                theList.DeleteArrayElementAtIndex(i);
             }
 
             EditorGUI.indentLevel--;

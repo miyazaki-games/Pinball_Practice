@@ -41,8 +41,6 @@ public class Lightshow : MonoBehaviour
         {
             l.sp.sprite = l.off;
         }
-
-        Debug.Log("StopLightShow");
     }
 
     IEnumerator Blink()

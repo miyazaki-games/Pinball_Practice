@@ -8,10 +8,16 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
 
     public Text ballAmountText, scoreText;
+    public GameObject gameOverPanel;
 
     void Awake()
     {
         instance = this;
+    }
+
+    public void ShowGameOverPanel(bool on)
+    {
+        gameOverPanel.SetActive(on);
     }
 
     public void UpdateBallText(int amount)

@@ -52,6 +52,8 @@ public class MissionManager : MonoBehaviour
                 {
                     mission.active = true;
 
+                    StartCoroutine(Timer(mission.timeToComplete, ID));
+
                     if (mission.lightShow != null)
                     {
                         mission.lightShow.StartLightShow();

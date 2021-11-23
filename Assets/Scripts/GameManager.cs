@@ -28,23 +28,29 @@ public class GameManager : MonoBehaviour
         ResetGame();
     }
 
-    void ResetGame()
+    public void ResetGame()
     {
         currentBallAmount = startBallAmount;
         UIManager.instance.UpdateBallText(currentBallAmount);
-
+        UIManager.instance.ShowGameOverPanel(false);
+        MissionManager.instance.ResetAllMissions();
         CreateNewBall();
     }
 
     public void CreateNewBall()
     {
-        if (activeBallsOnPlayfield == 0)
+        if (activeBallsOnPlayfield == 0 && currentBallAmount > 0)
         {
             Instantiate(ballPrefab, spawnPoint.position, Quaternion.identity);
             targetSet1.ResetAllTargets();
             UpdateBallsOnPlayfield(+1);
             currentBallAmount--;
             UIManager.instance.UpdateBallText(currentBallAmount);
+        }
+        else
+        {
+            Debug.Log("GAME OVER");
+            UIManager.instance.ShowGameOverPanel(true);
         }
     }
 

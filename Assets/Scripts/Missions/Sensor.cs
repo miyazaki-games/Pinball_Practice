@@ -14,12 +14,13 @@ public class Sensor : MonoBehaviour
     void OnTriggerEnter(Collider col)
     {
         bool startedAlready = MissionManager.instance.CheckIfMissionStarted(triggerId);
+
         if (isStarter)
         {
             MissionManager.instance.StartMission(triggerId);
         }
 
-        if (isCounter)
+        if (isCounter && startedAlready)
         {
             MissionManager.instance.UpdateMission(triggerId);
         }
@@ -33,7 +34,7 @@ public class Sensor : MonoBehaviour
             MissionManager.instance.StartMission(triggerId);
         }
 
-        if (isCounter)
+        if (isCounter && startedAlready)
         {
             MissionManager.instance.UpdateMission(triggerId);
         }
