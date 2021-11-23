@@ -49,7 +49,6 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("GAME OVER");
             UIManager.instance.ShowGameOverPanel(true);
         }
     }

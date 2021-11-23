@@ -71,6 +71,7 @@ public class MissionListEditor : Editor
             SerializedProperty myDescription = myListRef.FindPropertyRelative("description");
 
             SerializedProperty myActive = myListRef.FindPropertyRelative("active");
+            SerializedProperty myPermanentActive = myListRef.FindPropertyRelative("permanentActive");
             SerializedProperty myComplete = myListRef.FindPropertyRelative("missionComplete");
 
             SerializedProperty myRestart = myListRef.FindPropertyRelative("restartOnNextBall");
@@ -92,6 +93,7 @@ public class MissionListEditor : Editor
                 EditorGUILayout.PropertyField(myDescription);
 
                 EditorGUILayout.PropertyField(myActive);
+                EditorGUILayout.PropertyField(myPermanentActive);
                 EditorGUILayout.PropertyField(myComplete);
 
                 EditorGUILayout.PropertyField(myRestart);
