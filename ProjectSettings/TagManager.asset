@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ball
+  - SetParent_BO
+  - BacktoGame
+  - GotoBO
   layers:
   - Default
   - TransparentFX
@@ -12,9 +15,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - BacktoGame_BO
+  - Miyazaki-Ken
+  - Block_BO
   - 
   - 
   - 

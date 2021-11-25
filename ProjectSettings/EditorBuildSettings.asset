@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: a7593e3367a1d4f58b8c709ab1d73824
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Bonus Breakout.unity
+    guid: 078b71dbd6df0475cbd4b6f345b9f44a
   m_configObjects: {}
