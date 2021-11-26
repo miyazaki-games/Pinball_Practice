@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -32,9 +33,14 @@ public class GameManager : MonoBehaviour
     {
         currentBallAmount = startBallAmount;
         UIManager.instance.UpdateBallText(currentBallAmount);
-        UIManager.instance.ShowGameOverPanel(false);
+        //UIManager.instance.ShowGameOverPanel(false);
         MissionManager.instance.ResetAllMissions();
         CreateNewBall();
+    }
+
+    public void Main()
+    {
+        SceneManager.LoadSceneAsync("Title");
     }
 
     public void CreateNewBall()
