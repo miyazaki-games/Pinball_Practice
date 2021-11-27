@@ -15,6 +15,7 @@ TagManager:
   - CameraMoveTakachiho
   - CameraMoveNobeoka
   - Board
+  - StartPipe
   layers:
   - Default
   - TransparentFX
