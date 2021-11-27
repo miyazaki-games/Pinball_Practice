@@ -47,7 +47,8 @@ public class GameManager : MonoBehaviour
     {
         if (activeBallsOnPlayfield == 0 && currentBallAmount > 0)
         {
-            Instantiate(ballPrefab, spawnPoint.position, Quaternion.identity);
+            //Instantiate(ballPrefab, spawnPoint.position, Quaternion.identity);
+            ballPrefab.transform.position = spawnPoint.position;
             targetSet1.ResetAllTargets();
             UpdateBallsOnPlayfield(+1);
             currentBallAmount--;

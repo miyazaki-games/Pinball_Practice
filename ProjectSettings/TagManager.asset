@@ -8,6 +8,13 @@ TagManager:
   - SetParent_BO
   - BacktoGame
   - GotoBO
+  - ChangeGravityPin
+  - CameraMoveMiyazaki
+  - CameraMoveEbino
+  - CameraMoveNichinan
+  - CameraMoveTakachiho
+  - CameraMoveNobeoka
+  - Board
   layers:
   - Default
   - TransparentFX

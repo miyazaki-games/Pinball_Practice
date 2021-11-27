@@ -20,24 +20,32 @@ public class Plunger : MonoBehaviour
     {
         if (ballReady)
         {
-            if (Input.GetKey(KeyCode.DownArrow))
-            {
-                if (power <= maxPower)
-                {
-                    power += powerCountPerTrick * Time.deltaTime;
-                }
+            //if (Input.GetKey(KeyCode.DownArrow))
+            //{
+            //    if (power <= maxPower)
+            //    {
+            //        power += powerCountPerTrick * Time.deltaTime;
+            //    }
 
-                plungerAnim.SetBool("activate", true);
-            }
+            //    plungerAnim.SetBool("activate", true);
+            //}
 
-            if (Input.GetKeyUp(KeyCode.DownArrow))
+            //if (Input.GetKeyUp(KeyCode.DownArrow))
+            //{
+            //    if (ballRb != null)
+            //    {
+            //        ballRb.AddForce(-1 * power * contact.normal, ForceMode.Impulse);
+            //    }
+
+            //    plungerAnim.SetBool("activate", false);
+            //}
+
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 if (ballRb != null)
                 {
-                    ballRb.AddForce(-1 * power * contact.normal, ForceMode.Impulse);
+                    ballRb.AddForce(-1 * 2 * contact.normal, ForceMode.Impulse);
                 }
-
-                plungerAnim.SetBool("activate", false);
             }
         }
     }
