@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63866
+53986
 Successfully changed project path to: /Users/ryono/Desktop/Unity Project/Pinball Course
 /Users/ryono/Desktop/Unity Project/Pinball Course
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 168.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path /Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/ryono/Desktop/Unity Project/Pinball Course/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-27 13:27:02.237 Unity[27409:2676051] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
-2021-11-27 13:27:02.237 Unity[27409:2676051] Metal devices available: 1
-2021-11-27 13:27:02.237 Unity[27409:2676051] 0: Intel(R) Iris(TM) Graphics 550 (low power)
-2021-11-27 13:27:02.237 Unity[27409:2676051] Using device Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-27 23:10:14.127 Unity[28645:2789964] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-27 23:10:14.127 Unity[28645:2789964] Metal devices available: 1
+2021-11-27 23:10:14.127 Unity[28645:2789964] 0: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-11-27 23:10:14.130 Unity[28645:2789964] Using device Intel(R) Iris(TM) Graphics 550 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 550
 Initialize mono
 Mono path[0] = '/Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56409
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56645
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Volumes/Untitled/UnityVerion/2020.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001037 seconds.
+Registered in 0.007159 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.965 seconds
+- Completed reload, in 10.289 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3966ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (10289ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (724ms)
-			LoadAssemblies (98ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (306ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (291ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005320 seconds.
+Registered in 0.026730 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.335 seconds
+- Completed reload, in  2.161 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2337ms)
-		BeginReloadAssembly (285ms)
+	ReloadAssembly (2165ms)
+		BeginReloadAssembly (279ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1936ms)
-			LoadAssemblies (157ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1764ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (743ms)
+			SetupTypeCache (616ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (126ms)
+			RebuildScriptCaches (87ms)
 			SetupLoadedEditorAssemblies (655ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (449ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (428ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.008741 seconds.
+Validating Project structure ... 0.008618 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.007975 seconds.
+Upgrading shader files ...0.010326 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,18 +128,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.6 MB.
-System memory in use after: 216.7 MB.
+System memory in use before: 217.7 MB.
+System memory in use after: 216.9 MB.
 
 Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 6.963199 ms (FindLiveObjects: 0.265329 ms CreateObjectMapping: 0.088772 ms MarkObjects: 5.784260 ms  DeleteObjects: 0.821939 ms)
+Total: 6.460735 ms (FindLiveObjects: 0.460212 ms CreateObjectMapping: 0.160041 ms MarkObjects: 4.992442 ms  DeleteObjects: 0.846432 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,223 +153,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png
-  artifactKey: Guid(018a5623a46db1d49b1e6ff2482b07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png using Guid(018a5623a46db1d49b1e6ff2482b07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731ea09e1e3f5b70a816c75b1e31c80b') in 0.684599 seconds 
-  Import took 0.690080 seconds .
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png
+  artifactKey: Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png using Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b002c06852540cc8d88cb9e83a70746') in 0.870533 seconds 
+  Import took 0.879286 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009008 seconds.
-  path: Assets/Ludiq/Bolt.Core/IconMap/Bolt.GlobalMessageListener.png
-  artifactKey: Guid(0129cf6bb23df2f41824eda97d16ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ludiq/Bolt.Core/IconMap/Bolt.GlobalMessageListener.png using Guid(0129cf6bb23df2f41824eda97d16ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627a75a4b92f2da12498124d2c69e67e') in 0.013899 seconds 
-  Import took 0.019551 seconds .
+  Time since last request: 0.007857 seconds.
+  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png
+  artifactKey: Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png using Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286c04da586fa4a26ef9e9a8038f2262') in 0.023055 seconds 
+  Import took 0.034854 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset
-  artifactKey: Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset using Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88896065a2a67e7bf4aafe95c7a9575c') in 1.968413 seconds 
-  Import took 1.974093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005303 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png
-  artifactKey: Guid(c99a391f381fe534c80a193fe9f307a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png using Guid(c99a391f381fe534c80a193fe9f307a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b547b7b474ad028f7dfa335c284ff4c') in 0.007777 seconds 
-  Import took 0.014325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Flow Machines/Pinball 3lifes/BallController.asset
-  artifactKey: Guid(6d73e0a7728f045c59796336e3a95804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flow Machines/Pinball 3lifes/BallController.asset using Guid(6d73e0a7728f045c59796336e3a95804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bb69f8e949005a454185cfc4dab06c') in 0.004187 seconds 
-  Import took 0.008983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png
-  artifactKey: Guid(d1278357b25e10442b6ca6c24edc9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png using Guid(d1278357b25e10442b6ca6c24edc9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956eb4a5d16b05f3bf1c897c7b787aa5') in 0.009333 seconds 
-  Import took 0.013932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.277743 seconds.
-  path: Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset
-  artifactKey: Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset using Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1881bdce78490e54656114a4e7673a0f') in 0.014561 seconds 
-  Import took 0.021002 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013388 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2021ms)
-		BeginReloadAssembly (325ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (194ms)
-		EndReloadAssembly (1574ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (635ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (543ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (211ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.8 MB.
-System memory in use after: 224.9 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2447.
-Total: 3.955078 ms (FindLiveObjects: 0.252937 ms CreateObjectMapping: 0.084713 ms MarkObjects: 3.525604 ms  DeleteObjects: 0.090716 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.5 MB.
-System memory in use after: 188.6 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2447.
-Total: 5.249044 ms (FindLiveObjects: 0.358596 ms CreateObjectMapping: 0.107352 ms MarkObjects: 4.722941 ms  DeleteObjects: 0.059192 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3459.091289 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png
-  artifactKey: Guid(53d696c01f6ca524383f11fcc34dd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png using Guid(53d696c01f6ca524383f11fcc34dd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fabdbb039032b23dd6c522f09e5816') in 0.057231 seconds 
-  Import took 0.062879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png
-  artifactKey: Guid(dfd33662d9f6f3849bd92f6e159ca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png using Guid(dfd33662d9f6f3849bd92f6e159ca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de41131fa04d725a5cfbdbcba0c4a931') in 0.009072 seconds 
-  Import took 0.013217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png
-  artifactKey: Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png using Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729fec07e84c5c515c0e5422e87c03b1') in 0.010271 seconds 
-  Import took 0.014410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1764.921871 seconds.
-  path: Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/ApplicationVariables.asset
-  artifactKey: Guid(0e56fe9d03ca340e2b2529113e868ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/ApplicationVariables.asset using Guid(0e56fe9d03ca340e2b2529113e868ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cdcae682a9f220eb85ba70abfed38e') in 0.259589 seconds 
-  Import took 0.272975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png
-  artifactKey: Guid(595b166389c8db546a199430284ebc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png using Guid(595b166389c8db546a199430284ebc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b724ebc341446805f291e5b049b4bc') in 0.020015 seconds 
-  Import took 0.024828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png
-  artifactKey: Guid(aa1d42dc6ff3e894da2208c6929d2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png using Guid(aa1d42dc6ff3e894da2208c6929d2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a6630f30aa6c700eae15fe2bbb1c4f') in 0.008208 seconds 
-  Import took 0.012768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png
-  artifactKey: Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png using Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d393915cf028b720d9781c71add93a9') in 0.010223 seconds 
-  Import took 0.015571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png
-  artifactKey: Guid(522b0133a9838674ca9a12e0c6e5a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png using Guid(522b0133a9838674ca9a12e0c6e5a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbffb48d255b7fd8389914191aa0a269') in 0.010191 seconds 
-  Import took 0.014577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/ProBuilder Data/Default Material Palette.asset
-  artifactKey: Guid(5c778852a0d0246c28bd0cc3850a3cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(5c778852a0d0246c28bd0cc3850a3cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227dd9d3b68c688f10f62e38e70c6786') in 0.006370 seconds 
-  Import took 0.011648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.291341 seconds.
-  path: Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset
-  artifactKey: Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset using Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deec6e07bff1968f147ef6ef8bb3aef') in 0.890407 seconds 
-  Import took 0.896063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.497195 seconds.
-  path: Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset
-  artifactKey: Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flow Machines/Pinball 3lifes/BallController_3lifes.asset using Guid(e0ec85206d96b472f914f336f2380629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac74e6fcab0e02a3091ec1e11bfc5c1') in 0.011719 seconds 
-  Import took 0.017420 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

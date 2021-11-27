@@ -10885,7 +10885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Ball","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"cameraVec","value":{"x":0.0,"y":11.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"cameraRot","value":{"x":90.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"cameraTrans","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CameraMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Ball","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CameraMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"cameraVec","value":{"x":0.0,"y":11.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"cameraRot","value":{"x":90.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"cameraTrans","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1459176334697716611}
     - {fileID: 963194228}
@@ -35564,7 +35564,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh238636
+  m_Name: pb_Mesh19430
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38866,7 +38866,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh272610
+  m_Name: pb_Mesh18690
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
