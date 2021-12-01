@@ -16,6 +16,11 @@ TagManager:
   - CameraMoveNobeoka
   - Board
   - StartPipe
+  - KenCho
+  - Takachiho
+  - Toimisaki
+  - Nojirikopia
+  - Udo
   layers:
   - Default
   - TransparentFX

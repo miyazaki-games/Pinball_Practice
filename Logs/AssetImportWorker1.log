@@ -16,109 +16,109 @@ COMMAND LINE ARGUMENTS:
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker1
 -projectPath
 /Users/ryono/Desktop/Unity Project/Pinball Course
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
 -srvPort
-53986
+53089
 Successfully changed project path to: /Users/ryono/Desktop/Unity Project/Pinball Course
 /Users/ryono/Desktop/Unity Project/Pinball Course
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 168.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path /Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/ryono/Desktop/Unity Project/Pinball Course/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-27 23:10:14.127 Unity[28645:2789964] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
-2021-11-27 23:10:14.127 Unity[28645:2789964] Metal devices available: 1
-2021-11-27 23:10:14.127 Unity[28645:2789964] 0: Intel(R) Iris(TM) Graphics 550 (low power)
-2021-11-27 23:10:14.130 Unity[28645:2789964] Using device Intel(R) Iris(TM) Graphics 550 (low power)
+2021-12-01 09:01:54.662 Unity[31830:3402300] Color LCD preferred device: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-12-01 09:01:54.662 Unity[31830:3402300] Metal devices available: 1
+2021-12-01 09:01:54.662 Unity[31830:3402300] 0: Intel(R) Iris(TM) Graphics 550 (low power)
+2021-12-01 09:01:54.663 Unity[31830:3402300] Using device Intel(R) Iris(TM) Graphics 550 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 550
 Initialize mono
 Mono path[0] = '/Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56645
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56830
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Volumes/Untitled/UnityVerion/2020.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.007159 seconds.
+Registered in 0.007080 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 10.289 seconds
+- Completed reload, in  4.065 seconds
 Domain Reload Profiling:
-	ReloadAssembly (10289ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (4066ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (813ms)
-			LoadAssemblies (155ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (263ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (345ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026730 seconds.
+Registered in 0.005651 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.161 seconds
+- Completed reload, in  2.190 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2165ms)
-		BeginReloadAssembly (279ms)
+	ReloadAssembly (2193ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1764ms)
-			LoadAssemblies (201ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1800ms)
+			LoadAssemblies (206ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (616ms)
+			SetupTypeCache (645ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (655ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (581ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.008618 seconds.
+Validating Project structure ... 0.014579 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.010326 seconds.
+Upgrading shader files ...0.007696 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,18 +128,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Volumes/Untitled/UnityVerion/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.7 MB.
-System memory in use after: 216.9 MB.
+System memory in use before: 217.4 MB.
+System memory in use after: 216.6 MB.
 
 Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 6.460735 ms (FindLiveObjects: 0.460212 ms CreateObjectMapping: 0.160041 ms MarkObjects: 4.992442 ms  DeleteObjects: 0.846432 ms)
+Total: 7.185363 ms (FindLiveObjects: 0.286836 ms CreateObjectMapping: 0.104045 ms MarkObjects: 5.942213 ms  DeleteObjects: 0.850548 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,16 +153,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png
-  artifactKey: Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png using Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b002c06852540cc8d88cb9e83a70746') in 0.870533 seconds 
-  Import took 0.879286 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eca0ca29e5045bc6a027edbaded840') in 0.461461 seconds 
+  Import took 0.467107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007857 seconds.
-  path: Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png
-  artifactKey: Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png using Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286c04da586fa4a26ef9e9a8038f2262') in 0.023055 seconds 
-  Import took 0.034854 seconds .
+  Time since last request: 12.460241 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc33a12ef9bf0d46689cee25ff5b9da') in 0.008011 seconds 
+  Import took 0.013831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.589727 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9831c5bcd09a075d8755cfc309b321') in 0.007965 seconds 
+  Import took 0.013313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.232615 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e0df74d28181862f6b927eac6e7428') in 0.009723 seconds 
+  Import took 0.018150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.032394 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ada5332ffa1b9aaab0a0475c9269d0') in 0.009498 seconds 
+  Import took 0.015865 seconds .
 
